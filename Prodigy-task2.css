@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC5JyR7qDTb8ZiLy8prW2ORl_yS4FDAISr5Q&s');;
+    background-size: cover;
+    background-position: center;
+}
+
+.stopwatch-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.stopwatch {
+    text-align: center;
+    width: 300px;
+}
+
+.time {
+    font-size: 48px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.green {
+    background-color: #28a745;
+}
+
+.yellow {
+    background-color: #ffc107;
+}
+
+.red {
+    background-color: #dc3545;
+}
+
+.blue {
+    background-color: #007bff;
+}
+
+.laps {
+    font-size: 18px;
+    color: #333;
+    text-align: left;
+    margin-top: 10px;
+}
